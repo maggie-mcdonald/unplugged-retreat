@@ -511,31 +511,31 @@ About Page
 
     /*---hero---*/
     .hero-area h1 {
-      width: 70%;
+      width: 60%;
     }
 
     /*---aside---*/
     aside .content-wrapper {
-      justify-content: flex-start;
+      justify-content: space-around;
     }
 
     aside .content-wrapper .form-description,
     aside .content-wrapper .form {
-      width: 40%;
+      width: 30%;
     }
 
     /*---features---*/
     .features h2 {
-      width: 80%;
+      width: 90%;
     }
 
     .features article {
-      flex-basis: 20%;
+      flex-basis: 33%;
     }
 
     /*---reviews---*/
     .reviews article div {
-      width: 40%;
+      width: 42%;
     }
 
 /* ==========================================================================
@@ -544,7 +544,7 @@ About Page
 
    .mission h2,
    .contact-section .content-wrapper h2 {
-    width: 80%;
+    width: 95%;
    }
 /* ==========================================================================
    FAQ Page
