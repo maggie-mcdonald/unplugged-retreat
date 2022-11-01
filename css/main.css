@@ -122,7 +122,6 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.125em;
-    line-height: auto;
     margin: 20px 0;
   }
  
@@ -137,7 +136,7 @@
   }
  
   figure {
- 
+    margin: 0;
   }
 
 
@@ -155,11 +154,12 @@
     
     header,
     footer {
+      background-color: #202322;
       display:flex;
       justify-content: center;
       align-items: center;
       flex-flow:row wrap;
-      background-color: #202322;
+      text-align: center;
     }
   
     header {
@@ -167,36 +167,47 @@
     }
     
     header .content-wrapper {
+      margin: 0;
       display:flex;
       justify-content: center;
       align-items: center;
       flex-flow:row wrap;
-      margin: 0;
+    }
+
+    header figure {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
   
     .header-divider {
       background: #3a3a3a;
-      width: 100%;
       height: 1px;
+      width: 100%;
       margin: 10px 0 20px 0;
     }
     
-    header .nav {
+    header nav {
+      width: 60%;
+      font-weight: 700;
+      font-size: 1.125em;
+      text-transform: uppercase;
       display: flex;
       justify-content:space-around;
       align-items: center;
       flex-flow:row wrap;
-      width: 60%;
-      font-weight: 700;
     }
     
-    header .nav ul {
-      display:flex;
-      justify-content: space-around;
+    header nav ul {
       width: 100%;
+      display: flex;
+      justify-content: space-around;
     }
   
     footer {
+      text-align:center;
       flex-direction: column;
       color: #ffffff;
     }
@@ -228,12 +239,23 @@
   
     /*---Mobile Styles-main- homepage---*/
     
+    /*---hero-area---*/
     .hero-area {
-      display:flex;
+      background: url(../img/jake-melara-30679-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      min-height: 500px;
+      display: flex;
       justify-content: center;
-      flex-flow:row wrap;
+      flex-flow: row wrap;
     }
     
+    .hero-area h1 {
+      font-size: 2.25em;
+      font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+      font-weight: 500; 
+      line-height: 1.2; 
+    }
     
     /*---aside---*/
     
@@ -277,6 +299,11 @@
       display:flex;
       justify-content: center;
       flex-flow:row wrap;
+      background-image: url(../img/rawpixel-800820-unsplash1.jpg);
+      background-color: #333;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
     }
     
     .features h2 {
@@ -296,6 +323,7 @@
     }
     
     .features p {
+      text-align: center;
       margin: 0;
     }
     
@@ -369,7 +397,6 @@
     
        .faq-content {
           margin-bottom: 50px;
-          flex-basis: row wrap;
        }
 
        .faq-content h4 {
