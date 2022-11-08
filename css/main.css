@@ -240,6 +240,11 @@
       display:flex;
       justify-content:center;
       align-items:center;
+      border: none;
+      background: #527158;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
     }
   
     footer .copyright {
