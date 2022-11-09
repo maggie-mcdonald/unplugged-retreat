@@ -687,7 +687,7 @@
   footer .copyright {
     width: 100%;
   }
-  }
+  
 
 /* ==========================================================================
 About Page
@@ -739,7 +739,7 @@ About Page
       line-height: 1.125;
   }
 
-
+  }
   /*-----desktop-----*/
   @media only screen and (min-width:1200px) {
     /* Style adjustments for viewports that meet the condition */
